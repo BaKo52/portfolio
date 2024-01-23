@@ -35,8 +35,8 @@ export default function RootLayout({
               enableSystem={true}
               themes={['dark', 'light', 'system']}
           >
-              <header>
-                  <PortfolioNavigation/>
+              <header className="flex justify-center bg-gray-300 shadow-sm mb-4 dark:bg-slate-700 dark:shadow-none w-full h-full ">
+                  <PortfolioNavigation className={"flex-grow"}/>
               </header>
               {children}
               <footer>
